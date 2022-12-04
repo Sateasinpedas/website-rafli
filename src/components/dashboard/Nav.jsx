@@ -13,12 +13,14 @@ const navLink = [
 export default function Nav() {
   return (
     <>
-      <nav className="fixed z-50 left-0 top-0 w-full py-2 px-10 flex flex-row justify-between items-center border-b-[1px] border-black bg-white text-black text-sm font-sans">
-        <div className="flex">
-          <a href="/" className="py-4 font-bold text-black">
+      <nav className="fixed z-50 left-0 top-0 w-full py-2 px-10 md:px-28 lg:px-36 xl:px-48 flex flex-row justify-between items-center border-b-[1px] border-black bg-white text-black text-sm font-sans">
+        
+        <div className="py-4">
+          <a href="/" className="font-bold text-black">
             Tiba-tiba programmer
           </a>
         </div>
+        
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"

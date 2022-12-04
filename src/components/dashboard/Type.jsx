@@ -17,7 +17,7 @@ const ExampleComponent = () => {
       wrapper="div"
       cursor={true}
       repeat={Infinity}
-      className="text-[28px] text-blue"
+      className="text-[28px] lg:text-[48px] text-blue"
     />
   );
 };

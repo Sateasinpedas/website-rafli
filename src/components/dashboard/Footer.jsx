@@ -3,16 +3,16 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <div className="px-10 mt-12 ">
-        <h1 className="text-[32px] font-bold w-fit bg-orange">Your turn</h1>
-        <p className="text-justify py-5">
+      <div className="mx-10 md:mx-28 lg:mx-36 xl:mx-48 mt-12 ">
+        <h1 className="text-[32px] md:text-[48px] font-bold w-fit bg-orange px-2 ">Your turn</h1>
+        <p className="text-justify py-5 lg:text-2xl">
           Get in touch now. Tell me more about yourself and how i can help you.
         </p>
       </div>
 
-      <div className="mx-10 flex mb-12">
-        <div className="bg-ocean w-fit py-4 px-3 ">
-          <p className="text-sm pb-4">Start a project with me</p>
+      <div className="mx-10 md:mx-28 lg:mx-36 xl:mx-48 flex mb-12 md:mb-20 md:mt-10">
+        <div href="https://www.linkedin.com/in/rafliardiansyah/"className="bg-ocean w-fit md:w-full py-4 px-3 lg:px-10  hover:bg-blue hover:font-bold">
+          <p className="text-sm pb-4 lg:text-xl">Start a project with me</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -28,8 +28,8 @@ export default function Footer() {
             />
           </svg>
         </div>
-        <div className="bg-dark w-fit px-3 py-4">
-          <p className="text-sm text-white pb-4">Contact me in linkedin</p>
+        <div className="bg-dark w-fit md:w-full px-3 py-4 lg:px-10 hover:bg-blue hover:font-bold">
+          <p className="text-sm text-white lg:text-xl pb-4 ">Contact me in linkedin</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

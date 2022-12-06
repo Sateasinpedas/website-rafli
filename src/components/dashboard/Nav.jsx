@@ -3,24 +3,23 @@ import React from "react";
 const navLink = [
   {
     name: "contact",
-    link: "/",
+    link: "/#footer",
   },
   {
     name: "project",
-    link: "/project",
+    link: "/",
   },
 ];
 export default function Nav() {
   return (
     <>
       <nav className="fixed z-50 left-0 top-0 w-full py-2 px-10 md:px-28 lg:px-36 xl:px-48 flex flex-row justify-between items-center border-b-[1px] border-black bg-white text-black text-sm font-sans">
-        
         <div className="py-4">
           <a href="/" className="font-bold text-black">
             Tiba-tiba programmer
           </a>
         </div>
-        
+
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +38,9 @@ export default function Nav() {
 
           <ul className="hidden md:flex ">
             <li>Project</li>
-            <li className="pl-8">Contact</li>
+            <a href="#footer">
+              <li className="pl-8">Contact</li>
+            </a>
           </ul>
         </div>
       </nav>

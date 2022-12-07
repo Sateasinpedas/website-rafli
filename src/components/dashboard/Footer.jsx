@@ -16,6 +16,7 @@ export default function Footer() {
         <a href="mailto:rrapliard@gmail.com" className="bg-ocean w-fit md:w-full hover:bg-blue  transition duration-300">
           <div
             href="https://www.linkedin.com/in/rafliardiansyah/"
+            target="_blank"
             className="py-4 px-3 lg:px-10"
           >
             <p className="text-sm pb-4 lg:text-xl hover:font-bold duration-100">Start a project with me</p>
@@ -38,6 +39,7 @@ export default function Footer() {
 
         <a
           href="https://www.linkedin.com/in/rafliardiansyah/"
+          target="_blank"
           className="bg-dark w-fit md:w-full hover:bg-blue  transition duration-300"
         >
           <div className="px-3 py-4 lg:px-10 hover:font-bold transition duration-100">
